@@ -1,39 +1,55 @@
 # 🎮 Tic-Tac-Toe Game
 
-A simple and interactive Tic-Tac-Toe (X & O) game built using **HTML**, **CSS**, and **JavaScript**. Playable directly in your browser!
+This is a simple and responsive web-based **Tic-Tac-Toe** game developed using **HTML, CSS, and JavaScript**. Built as **Task-3** of the **Prodigy Infotech Internship**, it allows two players to take alternate turns on a 3x3 grid to play the classic game.
 
-## 🚀 Live Demo
+---
 
-🔗 [Click here to play the game](https://Madhu15-coder.github.io/Tic-Tac-Toe/)
+## 🔗 Live Demo
 
-## 📁 Project Structure  
+👉 [Click here to play the game](https://madhu15-coder.github.io/Tic-Tac-Toe/)
 
-## ✨ Features
+---
 
-- Two-player turn-based gameplay
-- Automatic win/tie detection
-- Game status display
-- Restart game button
-- Clean and responsive UI
+## 🛠️ Tech Stack Used
 
-## 📷 Screenshot
+- **HTML5** - for structure  
+- **CSS3** - for styling  
+- **JavaScript** - for logic and interactivity  
 
-![Game Screenshot](screenshot.png) <!-- Optional: Upload an actual screenshot and replace this with the correct image link -->
+---
 
-## 🛠️ Tech Used
+## 🎯 Features
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- Interactive 3x3 Tic-Tac-Toe board  
+- Two-player gameplay  
+- Turn display (X and O)  
+- Win and Draw detection  
+- Restart game functionality  
+- Clean and responsive UI  
 
-## 🧠 Learnings
+---
 
-This project helped me understand:
-- DOM manipulation
-- Event handling
-- Game logic implementation
-- GitHub Pages deployment
+## 📁 File Structure 
 
-## 📢 Acknowledgment
+---
 
-This project is a part of the **Prodigy Infotech Web Development Internship – Task 3**.
+## 📸 Screenshot
+
+| Game Preview |
+|--------------|
+| *(Add your screenshot here if you'd like)* |
+
+---
+
+## 👩‍💻 Developed By
+
+**Madhumita Narsale**  
+🌐 [GitHub Profile](https://github.com/Madhu15-coder)
+
+---
+
+## 📌 Internship Info
+
+**Internship:** Web Development Internship  
+**Organization:** Prodigy Infotech  
+**Task:** Task 3 - Build a Tic-Tac-Toe Game using HTML, CSS & JavaScript
