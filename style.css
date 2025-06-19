@@ -1,0 +1,93 @@
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f2f2f2, #e6e6ff);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #4a148c;
+}
+
+/* Game Board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 90vmin;
+  max-width: 360px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100%;
+  padding-top: 100%; /* makes it square */
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #4a148c;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a148c;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cell:hover {
+  background-color: #f3e5f5;
+}
+
+.cell::after {
+  content: attr(data-content);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Game Status */
+.status {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Restart Button */
+button {
+  padding: 10px 20px;
+  background-color: #4a148c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #6a1b9a;
+}
+
+/* Mobile Fix */
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .status {
+    font-size: 1rem;
+  }
+}
